@@ -1,4 +1,5 @@
 locals {
+  resource_name_suffix = terraform.workspace
   default_tags = {
     Project : "terraform-aws-vpc"
     Deployment : terraform.workspace
